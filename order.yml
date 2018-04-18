@@ -5,10 +5,8 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: 123456
-    url: jdbc:mysql://192.168.248.136:3306/sell?characterEncoding=utf-8&useSSL=false
+    url: jdbc:mysql://192.168.248.137:3306/sell?characterEncoding=utf-8&useSSL=false
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
-server:
-  port: 8081
